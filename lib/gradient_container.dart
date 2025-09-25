@@ -5,7 +5,7 @@ const startAlignement = AlignmentGeometry.topLeft;
 const endAlignement = AlignmentGeometry.bottomRight;
 
 class GradientContainer extends StatelessWidget {
-  GradientContainer({super.key, required this.colors});
+  const GradientContainer({super.key, required this.colors});
 
   final List<Color> colors;
 
